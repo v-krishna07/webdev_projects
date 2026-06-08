@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(28, 43, 51);
+    color:aquamarine;
+    text-align: center;
+}
+
+#input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px;
+    width:50px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-left:20px;
+
+    cursor:pointer;
+}
+#input:hover{
+    background-color: blanchedalmond;
+    border:1px burlywood;
+    border-radius: 3px;
+    color: brown;
+}
+
+
+
+#submit{
+    background-color: bisque;
+    cursor: pointer;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+    margin: 10px;
+    border:3px;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: bisque;
+    background: linear-gradient(120deg,rgb(43, 135, 240) 30%,rgb(46, 242, 222) 50%);
+    cursor: pointer;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+    margin: 10px;
+    border:3px;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+
+.tries{
+    font-size: 1.4rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+#verdict{
+    font-weight: 1000;
+}
