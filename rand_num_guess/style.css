@@ -1,26 +1,55 @@
 body{
+    background-color: rgb(29, 75, 75);
+}
+
+.input{
     background-color: rgb(28, 43, 51);
     color:aquamarine;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 5px aqua solid;
+    /* width:50px; */
+    border-radius: 15px;
+    font-weight: 300;
+    /* margin-left:20px; */
+    max-width: 500px;;
+    margin:auto;
+    margin-top: 60px;
+    padding: 60px;
+    /* cursor:pointer; */
 }
 
 #input{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 1px;
-    width:50px;
-    border-radius: 10px;
-    font-weight: 300;
-    margin-left:20px;
-
     cursor:pointer;
+    width:30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
+
 #input:hover{
     background-color: blanchedalmond;
-    border:1px burlywood;
+    border:3px burlywood solid;
+    width:30px;
+    margin-left: 5px;
     border-radius: 3px;
-    color: brown;
+    color: rgb(107, 29, 29);
+    transition: 0.5s;
+    box-shadow: 0 0 2px 3px rgb(0, 133, 133) ;
 }
 
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-decoration: double underline ;
+}
+
+#lbl{
+    font-size: 16px;
+    font-weight: 400;
+
+}
 
 
 #submit{
@@ -29,32 +58,37 @@ body{
     font-weight: 1000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px 15px;
-    margin: 10px;
+    margin: 40px;
     border:3px;
     border-radius: 5px;
 }
 
 #submit:hover{
     background-color: bisque;
-    background: linear-gradient(120deg,rgb(43, 135, 240) 30%,rgb(46, 242, 222) 50%);
+    background: linear-gradient(150deg,rgb(43, 135, 240) 30%,rgb(46, 242, 222) 50%);
     cursor: pointer;
     font-weight: 1000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px 15px;
-    margin: 10px;
+    transition: all 0.5s;
+
+    padding: 15px 22px;
+    margin: 35px;
     border:3px;
     border-radius: 5px;
-    transition: 2s;
 }
 
 
-.tries{
+#tries{
     font-size: 1.4rem;
     display: inline-block;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 #verdict{
+    transition:all 0.5s;
     font-weight: 1000;
+    font-size: 20px;
 }
