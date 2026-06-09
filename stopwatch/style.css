@@ -4,12 +4,50 @@ body{
 #main{
     background-color: #0A0A0A;
     padding:50px;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+}
+
+
+#btns button{
+    padding:20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#clr{
+    background-color: red;
+}
+#st{
+    background-color:green
+}
+
+#time{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    padding: 20px;
+    margin: 5px;
+    background-color: black;
+}
+
+.date{
+    border: white 1px solid;
+    box-shadow: 0 0 3px 1px white;
+    padding:5px;
+}
+
+.mdate{
+    font-size:0px;
 }
 
 /* button and clock left */
