@@ -1,0 +1,17 @@
+body{
+    background-color: #411301;
+}
+#main{
+    background-color: #0A0A0A;
+    padding:50px;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* button and clock left */
+
+/* Primary: Dark Slate or Jet BlackAccent: Crimson or Vivid OrangeText/Dials: Bright White */
