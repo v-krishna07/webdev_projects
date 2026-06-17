@@ -1,0 +1,6 @@
+// const main_list = [{},{},{}]
+export const idx=[1,2,3]
+export const main_img = ['../src/images/mt_fuji.png','../src/images/syd_op_hse.png','../src/images/geir.png']
+export const loc_name = ['Japan', 'Australia','Norway']
+export const data_abt = [`Standing as Japan's highest peak at 3,776 meters, Mount Fuji is an active stratovolcano renowned for its perfectly symmetrical, snow-capped cone. Revered as a sacred cultural symbol, this stunning UNESCO World Heritage site inspires millions of visitors globally.`,'Located on Sydney Harbour, the Sydney Opera House is a world-famous performing arts center renowned for its iconic, sail-like architecture designed by Jørn Utzon. This UNESCO World Heritage site stands as a masterful global symbol of Australia.','Located in Norway, the Geirangerfjord is a breathtaking UNESCO World Heritage site renowned for its deep blue waters, sheer mountain cliffs, and spectacular cascading waterfalls like the Seven Sisters. It stands globally as an iconic symbol of raw, natural beauty.']
+export const place_name = ['Fuji',"Lotus", "Valley"]

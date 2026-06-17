@@ -1,0 +1,103 @@
+.main{
+  border-radius: 20px;
+  /* border: 5px white solid; */
+}
+
+#Header{
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 2rem;
+  border-radius: 18px;
+}
+
+#main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.division {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.division:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  flex:0 0 240px;
+  height: 180px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.basic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.loc_name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #718096;
+  margin: 0;
+}
+
+.Maps {
+  font-size: 0.8rem;
+  color: #3182ce;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.Maps:hover {
+  color: #2b6cb0;
+  transform: translateY(-2px);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1a202c;
+  margin: 0 0 10px 0;
+}
+
+.basic_2 {
+  margin-top: auto; 
+}
+
+.data_abt {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.5;
+  margin: 0;
+}
