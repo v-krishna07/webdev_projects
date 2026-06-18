@@ -1,0 +1,77 @@
+/* Minimalist Dark Reset */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0d1117; /* Dark slate background */
+  color: #c9d1d9;            /* Soft off-white text */
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Base Wrapper Sizing */
+#root > div {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Dark Input Field */
+input[type="text"] {
+  background-color: #161b22;
+  color: #f0f6fc;
+  border: 1px solid #30363d;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 65%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #58a6ff; /* Blue accent outline on focus */
+}
+
+/* Flat Dark Button */
+button {
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  background-color: #30363d;
+  color: #f0f6fc;
+  border-color: #8b949e;
+}
+
+button:active {
+  background-color: #282e38;
+}
+
+/* Plain Text List Rows (All Boxes & Borders Removed) */
+#root > div > div {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 8px 0;
+  background: none;
+  border: none;
+  margin: 0;
+}
+
+/* Adds a small gap right beneath the search button before the list starts */
+#root > div > div:first-of-type {
+  margin-top: 16px;
+}
+
+/* Clean text highlight color shift when scanning the list */
+#root > div > div:hover {
+  color: #58a6ff;
+}
