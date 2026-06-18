@@ -1,0 +1,69 @@
+/* Minimalist Dark Reset */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0d1117; /* Slate dark background */
+  color: #c9d1d9;            /* Soft white text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Outer layout sizing */
+#root > div {
+  width: 100%;
+  max-width: 280px;
+}
+
+/* Pokemon List Items - Box stylings completely removed */
+#root div div {
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 6px 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: #c9d1d9;
+}
+
+/* Simple text highlight color change on hover */
+#root div div:hover {
+  color: #58a6ff; 
+}
+
+/* Pagination Row Placement */
+#root div > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Flat Dark Navigation Buttons */
+button {
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-grow: 1;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+button:hover {
+  background-color: #30363d;
+  color: #f0f6fc;
+  border-color: #8b949e;
+}
+
+button:active {
+  background-color: #282e38;
+}
